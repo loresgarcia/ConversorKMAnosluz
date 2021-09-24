@@ -1,0 +1,79 @@
+body {
+  font-family: "sans-serif", monospace;
+  min-height: 400px;
+  background-image: url("https://i.imgur.com/ZPpb2Yi.jpeg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  margin: 10px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin: 10px;
+}
+
+.page-logo {
+  width: 200px;
+  margin: 10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin: 10px;
+}
+
+.alura-logo:hover {
+  width: 45px;
+  cursor: pointer;
+}
+input {
+  margin: 12px;
+  padding: 6px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+label {
+  color: white;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+button:hover {
+  background-color: #ffeb3b;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#valorConvertido {
+  margin-top: 10px;
+  background-color: #000000;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 30px;
+}
